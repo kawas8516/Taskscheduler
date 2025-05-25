@@ -1,0 +1,61 @@
+/build/
+# Eclipse and Java
+.classpath
+.project
+.settings/
+bin/
+target/
+*.class
+
+# Maven
+.mvn/
+!**/src/main/**/mvnw*
+!**/src/main/**/mvnw.cmd
+pom.xml.versionsBackup
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle-wrapper.properties
+*.gradle
+gradle-app.setting
+gradlew
+gradlew.bat
+
+# IntelliJ (if someone opens it in IntelliJ too)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Tomcat
+*.war
+*.ear
+*.sar
+*.deploy
+*.deployed
+*.undeployed
+
+# VS Code (if opened with it)
+.vscode/
+
+# Git
+*.orig
+*.rej
+*.bak
+*.swp
+*.swo
+*.swn
+*.tmp
+
+# Environment
+.env
+.env.*
