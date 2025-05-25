@@ -3,8 +3,8 @@ package com.taskscheduler.util;
 public class EmailConfig {
     private final String host = "smtp.gmail.com";
     private final int port = 587;
-    private final String username = "1132220771@mitwpu.edu.in";
-    private final String password = "bsle mcfi pbgh crkz"; // Use app-specific password
+    private final String username = " "; //email for smtp
+    private final String password = " "; // Use app-specific password
     private final String fromAddress = "noreply@taskscheduler.com";
     
     // Getters
